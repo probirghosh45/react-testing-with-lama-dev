@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +17,11 @@ function App() {
         >
           Learn React
         </a>
+        <ul>
+          <li>Arjun</li>
+          <li>Krishna</li>
+          <li>Judishthir</li>
+        </ul>
       </header>
     </div>
   );
