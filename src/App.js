@@ -28,6 +28,7 @@ function App() {
         </ul>
       </header>
       <main>
+        <p data-testid="title" >Hello React Testing</p>
         <span title="sum" >{a+b}</span>
       </main>
     </div>
