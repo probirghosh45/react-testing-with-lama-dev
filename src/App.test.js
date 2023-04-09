@@ -10,5 +10,10 @@ test('renders learn react link', () => {
 test('renders list Items', () => {
   render(<App />);
   const listItems = screen.getAllByRole('listitem');
-  expect(listItems).toHaveLength(3);
+  expect(listItems).toHaveLength(3); 
+});
+test('sum should be 15', () => {
+  render(<App />);
+  const sum = screen.getByTitle('sum');
+  expect(sum.textContent).toBe("15"); 
 });
