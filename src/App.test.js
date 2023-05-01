@@ -17,11 +17,11 @@ test("renders list Items", () => {
 test("sum should be 15", () => {
   render(<App />);
   const sum = screen.getByTitle("sum");
-  expect(sum.textContent).toBe("15");
+  expect(sum.textContent).toBe("14");
 });
 
 test("Render Titles", () => {
   render(<App />);
-  const titleContent = screen.getByTestId("title")
+  const titleContent = screen.getByTestId("titlew")
   expect(titleContent).toBeInTheDocument();
 });
