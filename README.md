@@ -11,4 +11,4 @@ Types of Queries
 - queryBy()
 [![N|Solid](https://i.ibb.co/9cQw1sc/react-testing-library-2.png)](https://testing-library.com/docs/queries/about/)
 
-[![N|Solid](https://i.ibb.co/9cQw1sc/react-testing-library-3.png)](https://testing-library.com/docs/guide-disappearance/)
+[![N|Solid](https://i.ibb.co/jgGHH0Q/react-testing-library-3.png)](https://testing-library.com/docs/guide-disappearance/)
